@@ -1,0 +1,75 @@
+/* Style for EditEmployee component */
+.edit-employee-container {
+    width: 60%;
+    margin: 30px auto;
+    padding: 100px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-employee-heading {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .edit-employee-error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .edit-employee-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .edit-employee-form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-employee-form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .edit-employee-form input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .edit-employee-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .edit-employee-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-employee-form button:hover {
+    background-color: #218838;
+  }
+  
+  .edit-employee-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

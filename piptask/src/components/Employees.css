@@ -1,0 +1,113 @@
+/* Custom class for the container */
+.employees-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Custom class for the heading */
+  .employees-heading {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  /* Custom class for the table */
+  .employees-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Custom class for table headers */
+  .employees-table th,
+  .employees-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Custom class for table header background */
+  .employees-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Custom class for alternate row colors */
+  .employees-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Custom class for table row hover effect */
+  .employees-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Custom class for error message */
+  .employees-error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Custom class for the pagination controls */
+  .employees-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Custom class for pagination buttons */
+  .employees-pagination button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  /* Custom class for pagination button hover effect */
+  .employees-pagination button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Custom class for disabled pagination button */
+  .employees-pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Custom class for page number display */
+  .employees-pagination span {
+    align-self: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Custom class for edit and delete buttons */
+  .employees-actions button {
+    margin-left: 10px;
+  }
+  
+  /* Custom class for edit button */
+  .employees-actions .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .employees-actions .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Custom class for delete button */
+  .employees-actions .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .employees-actions .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
